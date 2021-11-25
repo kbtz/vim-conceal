@@ -1,7 +1,7 @@
 " commas over parens
-call Conceal('(\+',' ')
-call Conceal('(\ze)','')
-call Conceal(')','')
+call Conceal('(\+)\@!',' ')
+call Conceal('(\@<!)\+',' ')
+call Conceal('()','')
 
 " indentation over bracers
 call Conceal('}\+\ze\n','')

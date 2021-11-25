@@ -1,6 +1,9 @@
 " arrow => -> ->
 call Conceal(')\@<!=>\@=','-')
 
+" assigment 
+call Conceal('\w\zs={\=[\=','')
+
 " lambda ()=> -> 𝝺
 call Conceal('(\zs)=>','')
 call Conceal('(\ze)=>','𝝺')

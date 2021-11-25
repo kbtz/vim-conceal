@@ -1,3 +1,7 @@
+if expand('%:e') != "js"
+	finish
+endif
+
 call clearmatches()
 
 function! Conceal(p, c)
